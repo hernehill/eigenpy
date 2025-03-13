@@ -22,7 +22,7 @@ private_build_requires = [
 ]
 
 variants = [
-    ["python-3.7", "numpy-1.21.6"],
+    # ["python-3.7", "numpy-1.21.6"],
     ["python-3.9", "numpy-1.26.4"],
     ["python-3.10", "numpy-1.26.4"],
     ["python-3.11", "numpy-1.26.4"],
