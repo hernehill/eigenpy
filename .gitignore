@@ -2,3 +2,11 @@
 *build*/
 # pixi environments
 .pixi
+
+
+# IDEs
+.vscode
+.idea
+
+# REZ
+_rez_build
