@@ -19,20 +19,19 @@ requires = [
 ]
 
 private_build_requires = [
+    "visual_studio",
 ]
 
 variants = [
-    ["python-3.7", "numpy-1.21.6"],
     ["python-3.9", "numpy-1.26.4"],
     ["python-3.10", "numpy-1.26.4"],
     ["python-3.11", "numpy-1.26.4"],
-    ["python-3.12", "numpy-1.26.4"],
 ]
 
 def commands():
     env.REZ_EIGENPY_ROOT = '{root}'
 
-    env.LD_LIBRARY_PATH.append("{root}/lib64")
+    env.PATH.append("{root}/lib")
 
     python_dir = f"python{resolve.python.version.major}.{resolve.python.version.minor}"
     packages_dir = "{root}/lib"
