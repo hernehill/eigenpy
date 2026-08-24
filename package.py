@@ -1,6 +1,6 @@
 name = 'eigenpy'
 
-version = '3.10.3.hh.1.0.0'
+version = '3.10.3.hh.1.0.1'
 
 authors = [
     'eigenPy',
